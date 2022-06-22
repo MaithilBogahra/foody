@@ -7,7 +7,7 @@ function Contact(props) {
 
     let schema = yup.object().shape({
         name: yup.string().required(),
-        email: yup.string().email(),
+        email: yup.string().email().required(),
         subject: yup.string().required(),
         message: yup.string().required(),
     });
@@ -117,7 +117,7 @@ function Contact(props) {
                                                  onChange={handleChange}
                                                 onBlur={handleBlur}
                                                   />
-                                                   {errors.subject&& touched.subject ? 
+                                                   {errors.subject && touched.subject ? 
                                                 <p>{errors.subject}</p>
                                                 :
                                                 ""
