@@ -4,20 +4,8 @@ function Blog(props) {
     return (
         <div>
             {/* Page Header Start */}
-            <div className="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
-                <div className="container">
-                    <h1 className="display-3 mb-3 animated slideInDown">Blog Grid</h1>
-                    <nav aria-label="breadcrumb animated slideInDown">
-                        <ol className="breadcrumb mb-0">
-                            <li className="breadcrumb-item"><a className="text-body" href="#">Home</a></li>
-                            <li className="breadcrumb-item"><a className="text-body" href="#">Pages</a></li>
-                            <li className="breadcrumb-item text-dark active" aria-current="page">Blog Grid</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-            {/* Page Header End */}
-            {/* Blog Start */}
+
+
             <div className="container-xxl py-6">
                 <div className="container">
                     <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: 500 }}>
